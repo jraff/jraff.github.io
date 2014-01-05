@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan Raffoul</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="js/jquery.color.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.fa-stack').hover(function() {
+        $(this).find('.fa-circle').animate({'color':'#821122'}, 500);
+      }, function() {
+        $(this).find('.fa-circle').animate({'color':'#333333'}, 500);
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="container main-container text-center">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="row title">
+        <h1>Jordan<strong>Raffoul</strong></h1>
+        <div class="links text-right">
+
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <a href="mailto:me@jordanraffoul.com"><i class="fa fa-envelope fa-stack-1x fa-inverse"></i></a>
+          </span>
+
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <a href="http://twitter.com/jbraffoul"><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
+          </span>
+
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <a href="http://github.com/jraff"><i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

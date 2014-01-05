@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+
+.title {
+  display: inline-block;
+}
+
+.title h1 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  font-size: 54px;
+}
+
+.title h1 strong {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-top: 100px;
+}
