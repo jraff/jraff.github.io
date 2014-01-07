@@ -10,16 +10,6 @@
 
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script src="js/jquery.color.min.js"></script>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.fa-stack').hover(function() {
-        $(this).find('.fa-circle').animate({'color':'#821122'}, 500);
-      }, function() {
-        $(this).find('.fa-circle').animate({'color':'#333333'}, 500);
-      });
-    });
-  </script>
 </head>
 <body>
   <div class="container main-container text-center">
@@ -46,5 +36,20 @@
       </div>
     </div>
   </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.fa-stack').hover(function() {
+        $(this).find('.fa-circle').animate({'color':'#821122'}, 500);
+      }, function() {
+        $(this).find('.fa-circle').animate({'color':'#333333'}, 500);
+      });
+      
+      $('h1').hover(function() {
+        $(this).animate({'color':'#821122'}, 500);
+      }, function() {
+        $(this).animate({'color':'#333333'}, 500);
+      });
+    });
+  </script>
 </body>
 </html>
